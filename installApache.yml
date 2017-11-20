@@ -5,7 +5,7 @@
   tasks: 
   - name: install debian Apache
     apt:
-      name: apache2	  
+      name: apache2
       state: latest
   - service:
       name: apache2
