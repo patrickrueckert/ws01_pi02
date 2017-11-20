@@ -4,4 +4,4 @@
   gather_facts: false
   tasks:
    - name: Switch {{ status }} 
-     commans "/usr/bin/rgb {{ status }}"
+     commands "/usr/bin/rgb {{ status }}"
